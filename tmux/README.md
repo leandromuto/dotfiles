@@ -3,6 +3,7 @@
 - [ ] Install TPM automatically on first configuration
 - [ ] Change to the specified theme automatically
 - [ ] Fix "GPU Unknown" message in the status bar when using a MacBook with M1+ GPU
+- [ ] Fix tmuxlaunch.sh to run when tmux is initialized, splitting into necessary panes (TBD)
 
 ## Preconditions
 
