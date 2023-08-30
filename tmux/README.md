@@ -1,7 +1,5 @@
 # tmux Config
 
-To-do:
-
 - [ ] Install TPM automatically on first configuration
 - [ ] Change to the specified theme automatically
 - [ ] Fix "GPU Unknown" message in the status bar when using a MacBook with M1+ GPU
@@ -12,6 +10,8 @@ Before moving on, install/clone the following plugins. More details can be found
 
 - [tmux-powerline](https://github.com/erikw/tmux-powerline)
 - [tmux plugin manager](https://github.com/tmux-plugins/tpm)
+- [Spotify TUI](https://github.com/Rigellute/spotify-tui)
+- [Oh My ZSH](https://ohmyz.sh/)
 
 ## Configuring
 
@@ -25,8 +25,18 @@ With the plugins already installed and the binding key changed, run `bind+I` to 
 
 To see more plugin, please refer to the [TPM Plugins page](https://github.com/tmux-plugins/list).
 
-The result after running should be something similar to this ![iTerm application after running the tmux TPM install command](image.png)
+The result after running should be similar to the following image.
 
-## Changing the Color Scheme
+![iTerm application after running the tmux TPM install command](terminal.png)
+
+### Changing the Color Scheme
 
 Replace the `theme.sh` found in this folder with the `~/tmux-powerline/themes/default.sh`. Then, execute the `~/tmux-powerline/.generate_rc.sh` as described in the official documentation.
+
+### Spotify plugin
+
+It is necessaty to install the [Spotify TUI project](https://github.com/Rigellute/spotify-tui) in order to have the current playing audio in the status bar. Follow the instructions from the project setup.
+
+## References
+
+- [Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf by Ham Vocke](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
