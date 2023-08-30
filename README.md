@@ -19,3 +19,7 @@ Just my initial config.
   - [ ] Install k9s
   - [ ] Clone this repository and replace what is needed
   - [ ] Import VSCode config automatically
+
+## Font
+
+Any font downloaded from the [Nerd Fonts website](https://www.nerdfonts.com/font-downloads). Currently using the [Cousine](https://www.programmingfonts.org/#cousine) as primary and [Code New Roman](https://www.programmingfonts.org/#code-new-roman) as secondary for editor and terminal.
