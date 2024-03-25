@@ -10,13 +10,14 @@ Just my initial config.
 - [ ] Create a config for oh-my-zsh (download, add to path, etc.)
 - [ ] How to easily switch between personal and corporate github accounts. [Reference](https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3)
 - [ ] Entry file/Initial config:
-  - [ ] Install iTerm2
-  - [ ] Install NVM
+  - [ ] Install iTerm2 if on MacOS
+  - [ ] Install nvm
   - [ ] Install pk10
   - [ ] Install VSCode
   - [ ] Install oh-my-zsh
   - [ ] Install docker
   - [ ] Install k9s
+  - [ ] Install [pyright](https://github.com/microsoft/pyright) for LunarVIM because mypy is not supported (yet)
   - [ ] Clone this repository and replace what is needed
   - [ ] Import VSCode config automatically
 
