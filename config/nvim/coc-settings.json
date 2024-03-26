@@ -1,50 +1,59 @@
 {
-	"coc.preferences.formatOnSaveFiletypes": [
-		"markdown",
-		"html",
-		"css",
-		"javascript",
-		"typescript",
-		"json",
-		"python"
-	],
-	
-	"coc.preferences.formatOnType": false,
-	"diagnostic.errorSign": "❌",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "markdown",
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "json",
+    "python"
+  ],
+  "coc.preferences.formatOnType": false,
+  "diagnostic.errorSign": "❌",
   "diagnostic.warningSign": "⚠️",
-	"eslint.autoFixOnSave": true,
-	"eslint.enable": true,
-	"javascript.autoClosingTags": true,
-	"tailwindCSS.emmetCompletions": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "javascript.autoClosingTags": true,
+  "tailwindCSS.emmetCompletions": true,
   "typescript.autoClosingTags": true,
-	"tsserver.formatOnType": false,
-	"emmet.includeLanguages": {
+  "tsserver.formatOnType": false,
+  "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-
-	"pyright.enabled": true,
-	"python.analysis.autoImportCompletions": true,
-	"python.analysis.autoSearchPaths": true,
-	"python.formatting.provider": "black",
-	"python.linting.enabled": true,
-	"python.linting.mypyEnabled": true,
-	"pyright.organizeimports.provider": "pyright",
-	"pyright.inlayHints.functionReturnTypes": true,
-	"pyright.inlayHints.variableTypes": true,
-	"pyright.inlayHints.parameterTypes": true,
-	"pyright.testing.provider": "pytest",
-	"python.venvPath": "./.venv",
-
-	"languageserver": {
-		"sql": {
-			"module": "/path/to/node_modules/sql-language-server/dist/bin/cli.js",
-			"args": ["up", "--method", "node-ipc"],
-			"filetypes": ["sql", "mysql"]
-		},
-		"dockerfile": {
-			"command": "docker-langserver",
-			"filetypes": ["dockerfile"],
-			"args": ["--stdio"]
-		}
-	}
+  "pyright.enabled": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
+  "pyright.organizeimports.provider": "pyright",
+  "pyright.inlayHints.functionReturnTypes": true,
+  "pyright.inlayHints.variableTypes": true,
+  "pyright.inlayHints.parameterTypes": true,
+  "pyright.testing.provider": "pytest",
+  "python.venvPath": "./.venv",
+  "languageserver": {
+    "sql": {
+      "module": "/path/to/node_modules/sql-language-server/dist/bin/cli.js",
+      "args": [
+        "up",
+        "--method",
+        "node-ipc"
+      ],
+      "filetypes": [
+        "sql",
+        "mysql"
+      ]
+    },
+    "dockerfile": {
+      "command": "docker-langserver",
+      "filetypes": [
+        "dockerfile"
+      ],
+      "args": [
+        "--stdio"
+      ]
+    }
+  }
 }
+
